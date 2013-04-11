@@ -22,17 +22,17 @@ All the function calls are documented here: [http://ellislab.com/codeigniter/use
 
 
 ```php
-Email::initialize(array(
+Cloudmanic\Email\Message::initialize(array(
   'smtp_host' => '',
   'smtp_port' => '',
   'smtp_user' => '',
   'smtp_pass' => ''
 ));
 
-Email::from('support@cloudmanic.com', 'Cloudmanic Support');
-Email::to('user@example.com'); 
-Email::subject('Email Test');
-Email::message('My Message');	
-Email::send();
-echo Email::print_debugger();
+Cloudmanic\Email\Message::from('support@cloudmanic.com', 'Cloudmanic Support');
+Cloudmanic\Email\Message::to('user@example.com'); 
+Cloudmanic\Email\Message::subject('Email Test');
+Cloudmanic\Email\Message::message('My Message');	
+Cloudmanic\Email\Message::send();
+echo Cloudmanic\Email\Message::print_debugger();
 ```

@@ -37,7 +37,7 @@
  * @link		http://codeigniter.com/user_guide/libraries/email.html
  */
  
-namespace Cloudmanic/Email;
+namespace Cloudmanic\Email;
  
 class CiEmail 
 {
