@@ -5,6 +5,8 @@
 // Date: 4/10/13
 //
 
+namespace Cloudmanic/Email
+
 class Email
 {
 	private static $i = null;
