@@ -18,7 +18,7 @@ We really liked the email library offered by Codeigniter but of course this libr
 
 # How To Use
 
-All the function calls are documented here: (http://ellislab.com/codeigniter/user-guide/libraries/email.html)[http://ellislab.com/codeigniter/user-guide/libraries/email.html]
+All the function calls are documented here: [http://ellislab.com/codeigniter/user-guide/libraries/email.html](http://ellislab.com/codeigniter/user-guide/libraries/email.html)
 
 
 ```php
