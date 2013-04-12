@@ -23,6 +23,21 @@ class Message
         
 		return self::$i;
 	}
+	
+	//
+	// Load larvel 4.
+	//
+	public static function load_laravel_4()
+	{
+		$config = \Config::get('mail');
+		
+		self::instance()->initialize(array(
+		  'smtp_host' => 'ssl://' . $config['host'],
+		  'smtp_port' => $config['port'],
+		  'smtp_user' => $config['username'],
+		  'smtp_pass' => $config['password']
+		));
+	}
 
 	//
 	// Call static......
