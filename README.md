@@ -12,7 +12,7 @@ We really liked the email library offered by Codeigniter but of course this libr
 
 * We set html as the default email type.
 
-* We set the default useragent to "Cloudmaic"
+* We set the default useragent to "Cloudmanic"
 
 * We set the defaul newline to "\r\n"
 
